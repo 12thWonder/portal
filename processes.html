@@ -258,7 +258,7 @@
                         <li>
                             <a href="robots.html"><i class="fa fa-gears fa-fw"></i> Robots</a>
                         </li>
-                        <li>
+                        <li class="active">
                             <a href="processes.html"><i class="fa fa-lock fa-fw"></i> Processes</a>
                         </li>
                         <li>
@@ -288,98 +288,94 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1 class="page-header"> Dashboard</h1>
+                        <h1 class="page-header">Process</h1>
                     </div>
                     <!-- /.col-lg-12 -->
                 </div>
                 <!-- /.row -->
                 <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="panel panel-primary">
-                            <div class="panel-heading">
-                                <div class="row">
-                                    <div class="col-xs-3">
-                                        <i class="fa fa-gears fa-5x"></i>
-                                    </div>
-                                    <div class="col-xs-9 text-right">
-                                        <div class="huge">10</div>
-                                        <div>Robots</div>
-                                    </div>
-                                </div>
+                    <style>
+                        .process-list{
+                            float: left;
+                            margin: 15px;
+                            padding: 0px;
+                            height: 450px;
+                        }
+                        .process-list ul{
+                            list-style: none;
+                            padding: 10px;
+                        }
+                        .process-list li{
+                            border: 1px solid;
+                            padding: 20px;
+                        }
+                        .space{
+                            border: 0px!important;
+                            height: 80px;
+                        }
+                    </style>
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="panel panel-default process-list col-lg-2">
+                                <div class="task-step-header panel-heading" style="text-align:center;">Ready</div>
+                                <ul>
+                                    <li style="position: relative;">
+                                        <div>
+                                            Project1
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
-                            <a href="#">
-                                <div class="panel-footer">
-                                    <span class="pull-left">View Details</span>
-                                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                    <div class="clearfix"></div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="panel panel-green">
-                            <div class="panel-heading">
-                                <div class="row">
-                                    <div class="col-xs-3">
-                                        <i class="fa fa-lock fa-5x"></i>
-                                    </div>
-                                    <div class="col-xs-9 text-right">
-                                        <div class="huge">1</div>
-                                        <div>Processing</div>
-                                    </div>
-                                </div>
+                            <div class="panel panel-default process-list col-lg-2">
+                                <div class="task-step-header panel-heading" style="text-align:center;">Step1</div>
+                                <ul>
+                                    <li class="space"></li>
+                                    <li class="space"></li>
+                                    <li style="position: relative;">
+                                        <div>
+                                            Project3
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
-                            <a href="#">
-                                <div class="panel-footer">
-                                    <span class="pull-left">View Details</span>
-                                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                    <div class="clearfix"></div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="panel panel-yellow">
-                            <div class="panel-heading">
-                                <div class="row">
-                                    <div class="col-xs-3">
-                                        <i class="fa fa-sign-in fa-5x"></i>
-                                    </div>
-                                    <div class="col-xs-9 text-right">
-                                        <div class="huge">15</div>
-                                        <div>Complete</div>
-                                    </div>
-                                </div>
+                            <div class="panel panel-default process-list col-lg-2">
+                                <div class="task-step-header panel-heading" style="text-align:center;">Step2</div>
+                                <ul>
+                                    <li class="space"></li>
+                                    <li style="position: relative;">
+                                        <div>
+                                            Project2
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
-                            <a href="#">
-                                <div class="panel-footer">
-                                    <span class="pull-left">View Details</span>
-                                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                    <div class="clearfix"></div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="panel panel-red">
-                            <div class="panel-heading">
-                                <div class="row">
-                                    <div class="col-xs-3">
-                                        <i class="fa fa-database fa-5x"></i>
-                                    </div>
-                                    <div class="col-xs-9 text-right">
-                                        <div class="huge">13</div>
-                                        <div>Reports</div>
-                                    </div>
-                                </div>
+                            <div class="panel panel-default process-list col-lg-2">
+                               <div class="task-step-header panel-heading" style="text-align:center;">Completed</div>
+                                <ul>
+                                    <li class="space"></li>
+                                    <li class="space"></li>
+                                    <li class="space"></li>
+                                    <li class="space"></li>
+                                    <li style="position: relative;">
+                                        <div>
+                                            Project5
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
-                            <a href="#">
-                                <div class="panel-footer">
-                                    <span class="pull-left">View Details</span>
-                                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                    <div class="clearfix"></div>
-                                </div>
-                            </a>
+                            <div class="panel panel-default process-list col-lg-2">
+                                <div class="task-step-header panel-heading" style="text-align:center;">Failted</div>
+                                <ul>
+                                    <li class="space"></li>
+                                    <li class="space"></li>
+                                    <li class="space"></li>
+                                    <li style="position: relative;">
+                                        <div>
+                                            Project4
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
